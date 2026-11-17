@@ -1,0 +1,10 @@
+{
+  "task_id": "R42-T041",
+  "python_version": "3.9.6 (default, May 22 2026, 11:13:45) \n[Clang 21.0.0 (clang-2100.1.1.101)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "test_count": 6,
+  "status": "PASSED",
+  "inputs": "course-labs/r42-t041/fixture_data.json (6 records: 3 zero, 3 diagonal)",
+  "expected_result": "Valid fixture passes (6 records, 0 failures), malformed cases rejected with explicit reasons.",
+  "actual_result": "Ran 6 tests in 0.000s, OK"
+}
