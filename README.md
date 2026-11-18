@@ -219,3 +219,15 @@ If you'd like to contact me, you can reach me through my social media handles.
 
 
 > _Banner Credit: [Sahil Kumar](https://github.com/sahil07-rg)_
+
+
+## Coursework Contribution: R42-T033 - Variational autoencoder – Fashion-MNIST
+
+This repository contains teaching coursework contributions for **R42-T033** under scoped path [`course-labs/r42-t033/`](./course-labs/r42-t033/).
+
+- **Topic:** Variational autoencoder – Fashion-MNIST
+- **Component Purpose:** Baseline comparison
+- **Implementation:** [`course-labs/r42-t033/pipeline.py`](./course-labs/r42-t033/pipeline.py)
+- **Synthetic Fixture:** [`course-labs/r42-t033/fixture_data.json`](./course-labs/r42-t033/fixture_data.json)
+- **Unit Tests:** [`course-labs/r42-t033/test_pipeline.py`](./course-labs/r42-t033/test_pipeline.py)
+- **Evidence:** [`work/R42-T033/check_results.json`](./work/R42-T033/check_results.json)
