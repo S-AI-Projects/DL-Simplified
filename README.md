@@ -219,3 +219,15 @@ If you'd like to contact me, you can reach me through my social media handles.
 
 
 > _Banner Credit: [Sahil Kumar](https://github.com/sahil07-rg)_
+
+
+## Coursework Contribution: R42-T038 - GTZAN music genres – CNN
+
+This repository contains teaching coursework contributions for **R42-T038** under scoped path [`course-labs/r42-t038/`](./course-labs/r42-t038/).
+
+- **Topic:** GTZAN music genres – CNN
+- **Component Purpose:** Error-analysis example
+- **Implementation:** [`course-labs/r42-t038/pipeline.py`](./course-labs/r42-t038/pipeline.py)
+- **Synthetic Fixture:** [`course-labs/r42-t038/fixture_data.json`](./course-labs/r42-t038/fixture_data.json)
+- **Unit Tests:** [`course-labs/r42-t038/test_pipeline.py`](./course-labs/r42-t038/test_pipeline.py)
+- **Evidence:** [`work/R42-T038/check_results.json`](./work/R42-T038/check_results.json)
