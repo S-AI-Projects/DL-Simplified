@@ -219,3 +219,15 @@ If you'd like to contact me, you can reach me through my social media handles.
 
 
 > _Banner Credit: [Sahil Kumar](https://github.com/sahil07-rg)_
+
+
+## Coursework Contribution: R42-T042 - Sign-language MNIST – CNN
+
+This repository contains teaching coursework contributions for **R42-T042** under scoped path [`course-labs/r42-t042/`](./course-labs/r42-t042/).
+
+- **Topic:** Sign-language MNIST – CNN
+- **Component Purpose:** Deterministic split manifest generator & leakage prevention
+- **Implementation:** [`course-labs/r42-t042/pipeline.py`](./course-labs/r42-t042/pipeline.py)
+- **Synthetic Fixture:** [`course-labs/r42-t042/fixture_data.json`](./course-labs/r42-t042/fixture_data.json)
+- **Unit Tests:** [`course-labs/r42-t042/test_pipeline.py`](./course-labs/r42-t042/test_pipeline.py)
+- **Evidence:** [`work/R42-T042/check_results.json`](./work/R42-T042/check_results.json)
