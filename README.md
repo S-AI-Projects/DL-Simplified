@@ -219,3 +219,15 @@ If you'd like to contact me, you can reach me through my social media handles.
 
 
 > _Banner Credit: [Sahil Kumar](https://github.com/sahil07-rg)_
+
+
+## Coursework Contribution: R42-T034 - Speech commands – audio CNN
+
+This repository contains teaching coursework contributions for **R42-T034** under scoped path [`course-labs/r42-t034/`](./course-labs/r42-t034/).
+
+- **Topic:** Speech commands – audio CNN
+- **Component Purpose:** Metric correctness
+- **Implementation:** [`course-labs/r42-t034/pipeline.py`](./course-labs/r42-t034/pipeline.py)
+- **Synthetic Fixture:** [`course-labs/r42-t034/fixture_data.json`](./course-labs/r42-t034/fixture_data.json)
+- **Unit Tests:** [`course-labs/r42-t034/test_pipeline.py`](./course-labs/r42-t034/test_pipeline.py)
+- **Evidence:** [`work/R42-T034/check_results.json`](./work/R42-T034/check_results.json)
