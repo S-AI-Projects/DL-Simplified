@@ -219,3 +219,15 @@ If you'd like to contact me, you can reach me through my social media handles.
 
 
 > _Banner Credit: [Sahil Kumar](https://github.com/sahil07-rg)_
+
+
+## Coursework Contribution: R42-T039 - Chest X-ray pneumonia – CNN
+
+This repository contains teaching coursework contributions for **R42-T039** under scoped path [`course-labs/r42-t039/`](./course-labs/r42-t039/).
+
+- **Topic:** Chest X-ray pneumonia – CNN
+- **Component Purpose:** Robustness fixture
+- **Implementation:** [`course-labs/r42-t039/pipeline.py`](./course-labs/r42-t039/pipeline.py)
+- **Synthetic Fixture:** [`course-labs/r42-t039/fixture_data.json`](./course-labs/r42-t039/fixture_data.json)
+- **Unit Tests:** [`course-labs/r42-t039/test_pipeline.py`](./course-labs/r42-t039/test_pipeline.py)
+- **Evidence:** [`work/R42-T039/check_results.json`](./work/R42-T039/check_results.json)
