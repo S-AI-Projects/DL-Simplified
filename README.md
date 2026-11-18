@@ -219,3 +219,15 @@ If you'd like to contact me, you can reach me through my social media handles.
 
 
 > _Banner Credit: [Sahil Kumar](https://github.com/sahil07-rg)_
+
+
+## Coursework Contribution: R42-T041 - Hand gesture images – CNN
+
+This repository contains teaching coursework contributions for **R42-T041** under scoped path [`course-labs/r42-t041/`](./course-labs/r42-t041/).
+
+- **Topic:** Hand gesture images – CNN
+- **Component Purpose:** Validate data contract & schema validator
+- **Implementation:** [`course-labs/r42-t041/pipeline.py`](./course-labs/r42-t041/pipeline.py)
+- **Synthetic Fixture:** [`course-labs/r42-t041/fixture_data.json`](./course-labs/r42-t041/fixture_data.json)
+- **Unit Tests:** [`course-labs/r42-t041/test_pipeline.py`](./course-labs/r42-t041/test_pipeline.py)
+- **Evidence:** [`work/R42-T041/check_results.json`](./work/R42-T041/check_results.json)
