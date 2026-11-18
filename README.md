@@ -219,3 +219,15 @@ If you'd like to contact me, you can reach me through my social media handles.
 
 
 > _Banner Credit: [Sahil Kumar](https://github.com/sahil07-rg)_
+
+
+## Coursework Contribution: R42-T032 - Dropout vs batch-norm ablation – CIFAR-10
+
+This repository contains teaching coursework contributions for **R42-T032** under scoped path [`course-labs/r42-t032/`](./course-labs/r42-t032/).
+
+- **Topic:** Dropout vs batch-norm ablation – CIFAR-10
+- **Component Purpose:** Leakage-free splitting
+- **Implementation:** [`course-labs/r42-t032/pipeline.py`](./course-labs/r42-t032/pipeline.py)
+- **Synthetic Fixture:** [`course-labs/r42-t032/fixture_data.json`](./course-labs/r42-t032/fixture_data.json)
+- **Unit Tests:** [`course-labs/r42-t032/test_pipeline.py`](./course-labs/r42-t032/test_pipeline.py)
+- **Evidence:** [`work/R42-T032/check_results.json`](./work/R42-T032/check_results.json)
