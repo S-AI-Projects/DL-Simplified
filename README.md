@@ -219,3 +219,15 @@ If you'd like to contact me, you can reach me through my social media handles.
 
 
 > _Banner Credit: [Sahil Kumar](https://github.com/sahil07-rg)_
+
+
+## Coursework Contribution: R42-T047 - Yoga pose images – CNN
+
+This repository contains teaching coursework contributions for **R42-T047** under scoped path [`course-labs/r42-t047/`](./course-labs/r42-t047/).
+
+- **Topic:** Yoga pose images – CNN
+- **Component Purpose:** Reproducible configuration serialization & validation
+- **Implementation:** [`course-labs/r42-t047/pipeline.py`](./course-labs/r42-t047/pipeline.py)
+- **Synthetic Fixture:** [`course-labs/r42-t047/fixture_data.json`](./course-labs/r42-t047/fixture_data.json)
+- **Unit Tests:** [`course-labs/r42-t047/test_pipeline.py`](./course-labs/r42-t047/test_pipeline.py)
+- **Evidence:** [`work/R42-T047/check_results.json`](./work/R42-T047/check_results.json)
