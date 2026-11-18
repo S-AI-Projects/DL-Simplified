@@ -1,0 +1,10 @@
+{
+  "task_id": "R42-T039",
+  "python_version": "3.14.5 (v3.14.5:5607950ef23, May 10 2026, 07:38:09) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "Darwin-27.2.0-arm64",
+  "test_count": 2,
+  "status": "PASSED",
+  "inputs": "course-labs/r42-t039/fixture_data.json",
+  "expected_result": "Offline CPU unit test suite passes with zero failures.",
+  "actual_result": "..\n----------------------------------------------------------------------\nRan 2 tests in 0.000s\n\nOK"
+}
