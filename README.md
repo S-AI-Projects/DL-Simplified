@@ -219,3 +219,15 @@ If you'd like to contact me, you can reach me through my social media handles.
 
 
 > _Banner Credit: [Sahil Kumar](https://github.com/sahil07-rg)_
+
+
+## Coursework Contribution: R42-T049 - Transfer learning comparison – MobileNet vs ResNet
+
+This repository contains teaching coursework contributions for **R42-T049** under scoped path [`course-labs/r42-t049/`](./course-labs/r42-t049/).
+
+- **Topic:** Transfer learning comparison – MobileNet vs ResNet
+- **Component Purpose:** Input perturbation robustness & order invariance
+- **Implementation:** [`course-labs/r42-t049/pipeline.py`](./course-labs/r42-t049/pipeline.py)
+- **Synthetic Fixture:** [`course-labs/r42-t049/fixture_data.json`](./course-labs/r42-t049/fixture_data.json)
+- **Unit Tests:** [`course-labs/r42-t049/test_pipeline.py`](./course-labs/r42-t049/test_pipeline.py)
+- **Evidence:** [`work/R42-T049/check_results.json`](./work/R42-T049/check_results.json)
