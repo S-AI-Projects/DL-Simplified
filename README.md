@@ -219,3 +219,15 @@ If you'd like to contact me, you can reach me through my social media handles.
 
 
 > _Banner Credit: [Sahil Kumar](https://github.com/sahil07-rg)_
+
+
+## Coursework Contribution: R42-T036 - Malaria cell images – CNN
+
+This repository contains teaching coursework contributions for **R42-T036** under scoped path [`course-labs/r42-t036/`](./course-labs/r42-t036/).
+
+- **Topic:** Malaria cell images – CNN
+- **Component Purpose:** Small training/inference smoke test
+- **Implementation:** [`course-labs/r42-t036/pipeline.py`](./course-labs/r42-t036/pipeline.py)
+- **Synthetic Fixture:** [`course-labs/r42-t036/fixture_data.json`](./course-labs/r42-t036/fixture_data.json)
+- **Unit Tests:** [`course-labs/r42-t036/test_pipeline.py`](./course-labs/r42-t036/test_pipeline.py)
+- **Evidence:** [`work/R42-T036/check_results.json`](./work/R42-T036/check_results.json)
