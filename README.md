@@ -219,3 +219,15 @@ If you'd like to contact me, you can reach me through my social media handles.
 
 
 > _Banner Credit: [Sahil Kumar](https://github.com/sahil07-rg)_
+
+
+## Coursework Contribution: R42-T050 - MNIST – MLP from scratch in NumPy
+
+This repository contains teaching coursework contributions for **R42-T050** under scoped path [`course-labs/r42-t050/`](./course-labs/r42-t050/).
+
+- **Topic:** MNIST – MLP from scratch in NumPy
+- **Component Purpose:** Safe JSON saved-pipeline interface & inference validation
+- **Implementation:** [`course-labs/r42-t050/pipeline.py`](./course-labs/r42-t050/pipeline.py)
+- **Synthetic Fixture:** [`course-labs/r42-t050/fixture_data.json`](./course-labs/r42-t050/fixture_data.json)
+- **Unit Tests:** [`course-labs/r42-t050/test_pipeline.py`](./course-labs/r42-t050/test_pipeline.py)
+- **Evidence:** [`work/R42-T050/check_results.json`](./work/R42-T050/check_results.json)
