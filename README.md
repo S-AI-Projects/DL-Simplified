@@ -219,3 +219,15 @@ If you'd like to contact me, you can reach me through my social media handles.
 
 
 > _Banner Credit: [Sahil Kumar](https://github.com/sahil07-rg)_
+
+
+## Coursework Contribution: R42-T044 - SVHN house numbers – CNN
+
+This repository contains teaching coursework contributions for **R42-T044** under scoped path [`course-labs/r42-t044/`](./course-labs/r42-t044/).
+
+- **Topic:** SVHN house numbers – CNN
+- **Component Purpose:** Evaluation metric verification & zero-division handling
+- **Implementation:** [`course-labs/r42-t044/pipeline.py`](./course-labs/r42-t044/pipeline.py)
+- **Synthetic Fixture:** [`course-labs/r42-t044/fixture_data.json`](./course-labs/r42-t044/fixture_data.json)
+- **Unit Tests:** [`course-labs/r42-t044/test_pipeline.py`](./course-labs/r42-t044/test_pipeline.py)
+- **Evidence:** [`work/R42-T044/check_results.json`](./work/R42-T044/check_results.json)
