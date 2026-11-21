@@ -1,0 +1,11 @@
+test_duplicate_record_id (test_pipeline.TestPipeline.test_duplicate_record_id) ... ok
+test_invalid_numeric_label (test_pipeline.TestPipeline.test_invalid_numeric_label) ... ok
+test_invalid_text (test_pipeline.TestPipeline.test_invalid_text) ... ok
+test_missing_record_id (test_pipeline.TestPipeline.test_missing_record_id) ... ok
+test_six_valid_fixture_records (test_pipeline.TestPipeline.test_six_valid_fixture_records) ... ok
+test_tensor_like_label_is_rejected (test_pipeline.TestPipeline.test_tensor_like_label_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
