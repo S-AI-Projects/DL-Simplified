@@ -1,0 +1,11 @@
+test_all_records_are_assigned_once (test_pipeline.TestSplitPipeline.test_all_records_are_assigned_once) ... ok
+test_duplicate_record_ids_are_rejected (test_pipeline.TestSplitPipeline.test_duplicate_record_ids_are_rejected) ... ok
+test_fewer_than_three_groups_are_rejected (test_pipeline.TestSplitPipeline.test_fewer_than_three_groups_are_rejected) ... ok
+test_groups_do_not_overlap (test_pipeline.TestSplitPipeline.test_groups_do_not_overlap) ... ok
+test_invalid_pixel_values_are_rejected (test_pipeline.TestSplitPipeline.test_invalid_pixel_values_are_rejected) ... ok
+test_same_seed_gives_same_manifest (test_pipeline.TestSplitPipeline.test_same_seed_gives_same_manifest) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
