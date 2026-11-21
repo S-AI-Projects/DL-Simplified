@@ -1,0 +1,43 @@
+
+{
+  "description": "Synthetic 4x4 grayscale CPU smoke fixture. This is simulated data, not a real cassava leaf dataset.",
+  "records": [
+    {
+      "record_id": "img_001",
+      "group_id": "group_A",
+      "pixels": [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]],
+      "label": 0
+    },
+    {
+      "record_id": "img_002",
+      "group_id": "group_A",
+      "pixels": [[255, 0, 0, 0], [0, 255, 0, 0], [0, 0, 255, 0], [0, 0, 0, 255]],
+      "label": 1
+    },
+    {
+      "record_id": "img_003",
+      "group_id": "group_B",
+      "pixels": [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]],
+      "label": 0
+    },
+    {
+      "record_id": "img_004",
+      "group_id": "group_B",
+      "pixels": [[255, 0, 0, 0], [0, 255, 0, 0], [0, 0, 255, 0], [0, 0, 0, 255]],
+      "label": 1
+    },
+    {
+      "record_id": "img_005",
+      "group_id": "group_C",
+      "pixels": [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]],
+      "label": 0
+    },
+    {
+      "record_id": "img_006",
+      "group_id": "group_C",
+      "pixels": [[255, 0, 0, 0], [0, 255, 0, 0], [0, 0, 255, 0], [0, 0, 0, 255]],
+      "label": 1
+    }
+  ]
+}
+
