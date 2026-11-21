@@ -1,0 +1,20 @@
+
+{
+  "seed": 42,
+  "split_unit": "group_id",
+  "splits": {
+    "train": {
+      "group_ids": ["group_B"],
+      "record_ids": ["img_003", "img_004"]
+    },
+    "validation": {
+      "group_ids": ["group_A"],
+      "record_ids": ["img_001", "img_002"]
+    },
+    "test": {
+      "group_ids": ["group_C"],
+      "record_ids": ["img_005", "img_006"]
+    }
+  }
+}
+
