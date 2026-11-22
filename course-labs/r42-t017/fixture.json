@@ -1,0 +1,13 @@
+{
+  "description": "Synthetic 4x4 grayscale fixture for pipeline testing only; not real satellite imagery.",
+  "image_shape": [4, 4],
+  "pixel_range": [0, 255],
+  "records": [
+    {"record_id": "zero-001", "group_id": "group-001", "pixels": [[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0]], "label": 0},
+    {"record_id": "zero-002", "group_id": "group-002", "pixels": [[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0]], "label": 0},
+    {"record_id": "zero-003", "group_id": "group-003", "pixels": [[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0]], "label": 0},
+    {"record_id": "diagonal-001", "group_id": "group-004", "pixels": [[255,0,0,0],[0,255,0,0],[0,0,255,0],[0,0,0,255]], "label": 1},
+    {"record_id": "diagonal-002", "group_id": "group-005", "pixels": [[255,0,0,0],[0,255,0,0],[0,0,255,0],[0,0,0,255]], "label": 1},
+    {"record_id": "diagonal-003", "group_id": "group-006", "pixels": [[255,0,0,0],[0,255,0,0],[0,0,255,0],[0,0,0,255]], "label": 1}
+  ]
+}

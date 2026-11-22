@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "seed": 42,
+  "feature_order": ["row_major_flattened_pixels"],
+  "split_ids": {
+    "train": ["zero-001", "zero-002"],
+    "validation": ["zero-003", "diagonal-001"],
+    "test": ["diagonal-002", "diagonal-003"]
+  },
+  "algorithm": {
+    "name": "nonzero_pixel_baseline",
+    "threshold": 0,
+    "max_samples": 6,
+    "max_steps": 1
+  }
+}
