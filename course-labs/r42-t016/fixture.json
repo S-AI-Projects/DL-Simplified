@@ -1,0 +1,49 @@
+{
+  "description": "Six synthetic 4x4 grayscale images for CPU smoke testing only. Not a real energy dataset or handwriting dataset.",
+  "image_shape": [4, 4],
+  "pixel_range": [0, 255],
+  "records": [
+    {
+      "record_id": "zero-001",
+      "group_id": "group-zero-001",
+      "split": "train",
+      "label": 0,
+      "pixels": [[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0]]
+    },
+    {
+      "record_id": "zero-002",
+      "group_id": "group-zero-002",
+      "split": "train",
+      "label": 0,
+      "pixels": [[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0]]
+    },
+    {
+      "record_id": "diagonal-001",
+      "group_id": "group-diagonal-001",
+      "split": "validation",
+      "label": 1,
+      "pixels": [[255,0,0,0],[0,255,0,0],[0,0,255,0],[0,0,0,255]]
+    },
+    {
+      "record_id": "zero-003",
+      "group_id": "group-zero-003",
+      "split": "validation",
+      "label": 0,
+      "pixels": [[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0]]
+    },
+    {
+      "record_id": "diagonal-002",
+      "group_id": "group-diagonal-002",
+      "split": "test",
+      "label": 1,
+      "pixels": [[255,0,0,0],[0,255,0,0],[0,0,255,0],[0,0,0,255]]
+    },
+    {
+      "record_id": "diagonal-003",
+      "group_id": "group-diagonal-003",
+      "split": "test",
+      "label": 1,
+      "pixels": [[255,0,0,0],[0,255,0,0],[0,0,255,0],[0,0,0,255]]
+    }
+  ]
+}
