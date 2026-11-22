@@ -1,0 +1,17 @@
+{
+  "sample_rate": 8000,
+  "description": "Synthetic waveform fixture for pipeline verification only; not real ESC-50 audio.",
+  "records": [
+    {"record_id": "audio_001", "group_id": "group_001", "sample_rate": 8000, "samples": [0, 0, 0, 0, 0, 0, 0, 0], "label": 0},
+    {"record_id": "audio_002", "group_id": "group_002", "sample_rate": 8000, "samples": [0, 0, 0, 0, 0, 0, 0, 0], "label": 0},
+    {"record_id": "audio_003", "group_id": "group_003", "sample_rate": 8000, "samples": [0, 0, 0, 0, 0, 0, 0, 0], "label": 0},
+    {"record_id": "audio_004", "group_id": "group_004", "sample_rate": 8000, "samples": [-1, 1, -1, 1, -1, 1, -1, 1], "label": 1},
+    {"record_id": "audio_005", "group_id": "group_005", "sample_rate": 8000, "samples": [-1, 1, -1, 1, -1, 1, -1, 1], "label": 1},
+    {"record_id": "audio_006", "group_id": "group_006", "sample_rate": 8000, "samples": [-1, 1, -1, 1, -1, 1, -1, 1], "label": 1}
+  ],
+  "splits": {
+    "train": ["audio_001", "audio_002", "audio_004"],
+    "validation": ["audio_003"],
+    "test": ["audio_005", "audio_006"]
+  }
+}
