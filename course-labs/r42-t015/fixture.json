@@ -1,0 +1,49 @@
+{
+  "description": "Synthetic 4x4 grayscale fixture for testing preprocessing only. Not a real Devanagari handwriting dataset.",
+  "image_shape": [4, 4],
+  "pixel_range": [0, 255],
+  "records": [
+    {
+      "record_id": "train-zero-001",
+      "group_id": "group-train-zero",
+      "split": "train",
+      "label": 0,
+      "pixels": [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
+    },
+    {
+      "record_id": "train-diagonal-001",
+      "group_id": "group-train-diagonal",
+      "split": "train",
+      "label": 1,
+      "pixels": [[255, 0, 0, 0], [0, 255, 0, 0], [0, 0, 255, 0], [0, 0, 0, 255]]
+    },
+    {
+      "record_id": "validation-zero-001",
+      "group_id": "group-validation-zero",
+      "split": "validation",
+      "label": 0,
+      "pixels": [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
+    },
+    {
+      "record_id": "validation-diagonal-001",
+      "group_id": "group-validation-diagonal",
+      "split": "validation",
+      "label": 1,
+      "pixels": [[255, 0, 0, 0], [0, 255, 0, 0], [0, 0, 255, 0], [0, 0, 0, 255]]
+    },
+    {
+      "record_id": "test-zero-001",
+      "group_id": "group-test-zero",
+      "split": "test",
+      "label": 0,
+      "pixels": [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
+    },
+    {
+      "record_id": "test-diagonal-001",
+      "group_id": "group-test-diagonal",
+      "split": "test",
+      "label": 1,
+      "pixels": [[255, 0, 0, 0], [0, 255, 0, 0], [0, 0, 255, 0], [0, 0, 0, 255]]
+    }
+  ]
+}
