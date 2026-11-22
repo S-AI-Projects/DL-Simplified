@@ -1,0 +1,12 @@
+{
+  "next_words": {
+    "green": "apple",
+    "red": "apple"
+  },
+  "parameters": {
+    "lowercase": true,
+    "unknown_token": "<UNK>"
+  },
+  "pipeline_type": "deterministic_bigram_demo",
+  "schema_version": "1.0"
+}
