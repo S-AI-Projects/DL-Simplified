@@ -1,0 +1,20 @@
+{
+  "note": "Pipeline verification only. Synthetic 4\u00d74 fixture \u2014 NOT NEU Steel real dataset.",
+  "manifest": {
+    "train": [
+      "r001",
+      "r002"
+    ],
+    "val": [
+      "r003",
+      "r004"
+    ],
+    "test": [
+      "r005",
+      "r006"
+    ]
+  },
+  "manifest_fingerprint_sha256": "8cdd727eb19f2e5fb13163e8de4e30ce1bb029876dbf5fa17fafb05e9233d0ca",
+  "errors": [],
+  "outcome": "PASS"
+}
