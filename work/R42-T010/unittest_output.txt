@@ -1,0 +1,22 @@
+$ python3 -m unittest discover -s course-labs/r42-t010 -p "test_*.py" -v
+test_input_missing_field_rejected (test_pipeline.TestClearFailures.test_input_missing_field_rejected) ... ok
+test_input_out_of_range_pixel_rejected (test_pipeline.TestClearFailures.test_input_out_of_range_pixel_rejected) ... ok
+test_input_with_wrong_pixel_count_rejected (test_pipeline.TestClearFailures.test_input_with_wrong_pixel_count_rejected) ... ok
+test_pickle_file_refused_without_opening (test_pipeline.TestClearFailures.test_pickle_file_refused_without_opening) ... ok
+test_schema_mismatch_fails_clearly (test_pipeline.TestClearFailures.test_schema_mismatch_fails_clearly) ... ok
+test_version_mismatch_fails_clearly (test_pipeline.TestClearFailures.test_version_mismatch_fails_clearly) ... ok
+test_wrong_format_fails_clearly (test_pipeline.TestClearFailures.test_wrong_format_fails_clearly) ... ok
+test_explicit_disjoint_split (test_pipeline.TestFixture.test_explicit_disjoint_split) ... ok
+test_fixture_matches_task_description (test_pipeline.TestFixture.test_fixture_matches_task_description) ... ok
+test_before_and_after_reload_agree_within_tolerance (test_pipeline.TestSaveReload.test_before_and_after_reload_agree_within_tolerance) ... ok
+test_committed_saved_pipeline_matches_fit (test_pipeline.TestSaveReload.test_committed_saved_pipeline_matches_fit) ... ok
+test_concrete_predictions (test_pipeline.TestSaveReload.test_concrete_predictions) ... ok
+test_inference_needs_no_training_data_or_labels (test_pipeline.TestSaveReload.test_inference_needs_no_training_data_or_labels) ... ok
+test_saved_expected_result_matches (test_pipeline.TestSaveReload.test_saved_expected_result_matches) ... ok
+test_tolerance_is_enforced (test_pipeline.TestSaveReload.test_tolerance_is_enforced) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.006s
+
+OK
+exit_code=0

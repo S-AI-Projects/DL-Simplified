@@ -1,0 +1,58 @@
+{
+  "format": "r42-t010-nearest-centroid",
+  "format_version": 1,
+  "params": {
+    "centroids": {
+      "0": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "1": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "pixel_scale": 255
+  },
+  "schema": {
+    "labels": [
+      0,
+      1
+    ],
+    "pixel_max": 255,
+    "pixel_min": 0,
+    "pixels_length": 16,
+    "required_fields": [
+      "record_id",
+      "pixels"
+    ]
+  }
+}

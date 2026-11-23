@@ -1,0 +1,148 @@
+{
+  "note": "Pipeline verification only. Synthetic 4\u00d74 fixture \u2014 NOT Food-101.",
+  "expected": {
+    "before_reload": [
+      {
+        "record_id": "r002",
+        "label": 0,
+        "scores": {
+          "0": 0.0,
+          "1": 4.0
+        }
+      },
+      {
+        "record_id": "r005",
+        "label": 1,
+        "scores": {
+          "0": 4.0,
+          "1": 0.0
+        }
+      },
+      {
+        "record_id": "r003",
+        "label": 0,
+        "scores": {
+          "0": 0.0,
+          "1": 4.0
+        }
+      },
+      {
+        "record_id": "r006",
+        "label": 1,
+        "scores": {
+          "0": 4.0,
+          "1": 0.0
+        }
+      }
+    ],
+    "after_reload": [
+      {
+        "record_id": "r002",
+        "label": 0,
+        "scores": {
+          "0": 0.0,
+          "1": 4.0
+        }
+      },
+      {
+        "record_id": "r005",
+        "label": 1,
+        "scores": {
+          "0": 4.0,
+          "1": 0.0
+        }
+      },
+      {
+        "record_id": "r003",
+        "label": 0,
+        "scores": {
+          "0": 0.0,
+          "1": 4.0
+        }
+      },
+      {
+        "record_id": "r006",
+        "label": 1,
+        "scores": {
+          "0": 4.0,
+          "1": 0.0
+        }
+      }
+    ],
+    "agree_within_tolerance": true,
+    "tolerance": 1e-09
+  },
+  "actual": {
+    "before_reload": [
+      {
+        "record_id": "r002",
+        "label": 0,
+        "scores": {
+          "0": 0.0,
+          "1": 4.0
+        }
+      },
+      {
+        "record_id": "r005",
+        "label": 1,
+        "scores": {
+          "0": 4.0,
+          "1": 0.0
+        }
+      },
+      {
+        "record_id": "r003",
+        "label": 0,
+        "scores": {
+          "0": 0.0,
+          "1": 4.0
+        }
+      },
+      {
+        "record_id": "r006",
+        "label": 1,
+        "scores": {
+          "0": 4.0,
+          "1": 0.0
+        }
+      }
+    ],
+    "after_reload": [
+      {
+        "record_id": "r002",
+        "label": 0,
+        "scores": {
+          "0": 0.0,
+          "1": 4.0
+        }
+      },
+      {
+        "record_id": "r005",
+        "label": 1,
+        "scores": {
+          "0": 4.0,
+          "1": 0.0
+        }
+      },
+      {
+        "record_id": "r003",
+        "label": 0,
+        "scores": {
+          "0": 0.0,
+          "1": 4.0
+        }
+      },
+      {
+        "record_id": "r006",
+        "label": 1,
+        "scores": {
+          "0": 4.0,
+          "1": 0.0
+        }
+      }
+    ],
+    "agree_within_tolerance": true,
+    "tolerance": 1e-09
+  },
+  "outcome": "PASS"
+}
