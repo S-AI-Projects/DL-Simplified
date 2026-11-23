@@ -76,6 +76,10 @@ Project Folder Name/
 
 Please follow the [Code of Conduct](https://github.com/abhisheks008/DL-Simplified/blob/main/Code_of_conduct.md) and [Contributing Guidelines](https://github.com/abhisheks008/DL-Simplified/blob/main/CONTRIBUTING.md) while contributing in this project repository.
 
+### 🧪 Course labs
+Small CPU-only teaching components that use synthetic fixtures (not the real datasets) live in [`course-labs/`](course-labs/):
+- [R42-T004 · Horses vs humans – CNN · metric correctness](course-labs/r42-t004/README.md)
+
 ## 🧮 Workflow
 - Go through the project repository and the [README](https://github.com/World-of-ML/DL-Simplified/blob/main/README.md) to get an idea about this repository.
 - Check out the existing issues present there in the [Issues](https://github.com/World-of-ML/DL-Simplified/issues) section.

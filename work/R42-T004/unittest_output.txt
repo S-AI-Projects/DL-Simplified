@@ -1,0 +1,25 @@
+$ python3 -m unittest discover -s course-labs/r42-t004 -p "test_*.py" -v
+test_binary_vs_macro (test_pipeline.TestAveraging.test_binary_vs_macro) ... ok
+test_unknown_average_rejected (test_pipeline.TestAveraging.test_unknown_average_rejected) ... ok
+test_matches_reference_for_all_pairs (test_pipeline.TestCrossCheck.test_matches_reference_for_all_pairs) ... ok
+test_concrete_fixture_metrics (test_pipeline.TestFixtureEvaluation.test_concrete_fixture_metrics) ... ok
+test_fixture_matches_task_description (test_pipeline.TestFixtureEvaluation.test_fixture_matches_task_description) ... ok
+test_missing_prediction_rejected (test_pipeline.TestFixtureEvaluation.test_missing_prediction_rejected) ... ok
+test_saved_expected_result_matches (test_pipeline.TestFixtureEvaluation.test_saved_expected_result_matches) ... ok
+test_empty_rejected (test_pipeline.TestInputValidation.test_empty_rejected) ... ok
+test_length_mismatch_rejected (test_pipeline.TestInputValidation.test_length_mismatch_rejected) ... ok
+test_non_label_values_rejected (test_pipeline.TestInputValidation.test_non_label_values_rejected) ... ok
+test_counts (test_pipeline.TestTaskExample.test_counts) ... ok
+test_macro_and_f1_and_accuracy (test_pipeline.TestTaskExample.test_macro_and_f1_and_accuracy) ... ok
+test_precision_is_half (test_pipeline.TestTaskExample.test_precision_is_half) ... ok
+test_recall_is_half (test_pipeline.TestTaskExample.test_recall_is_half) ... ok
+test_default_returns_zero (test_pipeline.TestZeroDenominator.test_default_returns_zero) ... ok
+test_invalid_zero_division_rejected (test_pipeline.TestZeroDenominator.test_invalid_zero_division_rejected) ... ok
+test_zero_division_one (test_pipeline.TestZeroDenominator.test_zero_division_one) ... ok
+test_zero_division_raise (test_pipeline.TestZeroDenominator.test_zero_division_raise) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.020s
+
+OK
+exit_code=0

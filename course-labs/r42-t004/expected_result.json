@@ -1,0 +1,58 @@
+{
+  "task_example": {
+    "truth": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "prediction": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "precision_binary": 0.5,
+    "recall_binary": 0.5
+  },
+  "fixture": {
+    "record_ids": [
+      "r001",
+      "r002",
+      "r003",
+      "r004",
+      "r005",
+      "r006"
+    ],
+    "truth": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      1
+    ],
+    "prediction": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      1
+    ],
+    "positive_class_counts": {
+      "tp": 2,
+      "fp": 1,
+      "fn": 1
+    },
+    "metrics": {
+      "accuracy": 0.6666666666666666,
+      "precision_binary": 0.6666666666666666,
+      "recall_binary": 0.6666666666666666,
+      "f1_binary": 0.6666666666666666,
+      "precision_macro": 0.6666666666666666,
+      "recall_macro": 0.6666666666666666,
+      "f1_macro": 0.6666666666666666
+    }
+  }
+}

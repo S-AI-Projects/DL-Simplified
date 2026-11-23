@@ -1,0 +1,4 @@
+{
+  "note": "Simulated, fixed predictions used only to exercise the metric. Not output of a trained model.",
+  "predictions": {"r001": 0, "r002": 1, "r003": 0, "r004": 1, "r005": 0, "r006": 1}
+}

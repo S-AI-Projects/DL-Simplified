@@ -1,0 +1,19 @@
+Deliberate mutation check: copy of course-labs/r42-t004 with one expected value changed in test_pipeline.py
+  before: self.assertEqual(precision([1, 1, 0, 0], [1, 0, 1, 0]), 0.5)
+  after : self.assertEqual(precision([1, 1, 0, 0], [1, 0, 1, 0]), 0.75)
+$ python3 -m unittest discover -s <copy>/r42-t004 -p "test_*.py"
+............F.....
+======================================================================
+FAIL: test_precision_is_half (test_pipeline.TestTaskExample.test_precision_is_half)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<copy>/r42-t004/test_pipeline.py", line 45, in test_precision_is_half
+    self.assertEqual(precision([1, 1, 0, 0], [1, 0, 1, 0]), 0.75)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0.5 != 0.75
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.023s
+
+FAILED (failures=1)
+exit_code=1
