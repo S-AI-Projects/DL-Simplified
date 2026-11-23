@@ -1,0 +1,6 @@
+{
+  "note": "Pipeline verification only. Synthetic 4\u00d74 fixture \u2014 NOT Fashion-MNIST real dataset.",
+  "records_validated": 6,
+  "failures": [],
+  "outcome": "PASS"
+}
