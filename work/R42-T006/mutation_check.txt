@@ -1,0 +1,19 @@
+Deliberate mutation check: copy of course-labs/r42-t006 with one expected value changed in test_pipeline.py
+  before: self.assertEqual(self.result["steps"], 2)
+  after : self.assertEqual(self.result["steps"], 3)
+$ python3 -m unittest discover -s <copy>/r42-t006 -p "test_*.py"
+..........F..
+======================================================================
+FAIL: test_recorded_step_count_within_budget (test_pipeline.TestSmokeRun.test_recorded_step_count_within_budget)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<copy>/r42-t006/test_pipeline.py", line 51, in test_recorded_step_count_within_budget
+    self.assertEqual(self.result["steps"], 3)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 2 != 3
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.003s
+
+FAILED (failures=1)
+exit_code=1

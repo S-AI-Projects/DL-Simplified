@@ -1,0 +1,20 @@
+$ python3 -m unittest discover -s course-labs/r42-t006 -p "test_*.py" -v
+test_group_overlap_rejected (test_pipeline.TestBudgetAndFailureCases.test_group_overlap_rejected) ... ok
+test_more_than_20_steps_rejected (test_pipeline.TestBudgetAndFailureCases.test_more_than_20_steps_rejected) ... ok
+test_more_than_32_samples_rejected (test_pipeline.TestBudgetAndFailureCases.test_more_than_32_samples_rejected) ... ok
+test_more_than_one_epoch_rejected (test_pipeline.TestBudgetAndFailureCases.test_more_than_one_epoch_rejected) ... ok
+test_explicit_disjoint_split (test_pipeline.TestFixture.test_explicit_disjoint_split) ... ok
+test_fixture_matches_task_description (test_pipeline.TestFixture.test_fixture_matches_task_description) ... ok
+test_concrete_values_for_seed_0 (test_pipeline.TestSmokeRun.test_concrete_values_for_seed_0) ... ok
+test_model_is_labelled (test_pipeline.TestSmokeRun.test_model_is_labelled) ... ok
+test_outputs_and_losses_are_finite (test_pipeline.TestSmokeRun.test_outputs_and_losses_are_finite) ... ok
+test_prediction_shape_and_range (test_pipeline.TestSmokeRun.test_prediction_shape_and_range) ... ok
+test_recorded_step_count_within_budget (test_pipeline.TestSmokeRun.test_recorded_step_count_within_budget) ... ok
+test_repeated_run_is_identical (test_pipeline.TestSmokeRun.test_repeated_run_is_identical) ... ok
+test_saved_expected_result_matches (test_pipeline.TestSmokeRun.test_saved_expected_result_matches) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.003s
+
+OK
+exit_code=0

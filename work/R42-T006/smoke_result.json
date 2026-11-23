@@ -1,0 +1,62 @@
+{
+  "note": "Pipeline verification only (interface smoke test). Synthetic 4\u00d74 fixture \u2014 NOT a concrete crack dataset; no accuracy claim.",
+  "expected": {
+    "model": "tiny logistic regression (16 -> 1), learned; not a CNN, not a constant/naive model",
+    "is_constant_model": false,
+    "seed": 0,
+    "learning_rate": 0.5,
+    "epochs": 1,
+    "steps": 2,
+    "train_order": [
+      "r001",
+      "r004"
+    ],
+    "step_losses": [
+      0.6931471805599453,
+      0.8213605345432711
+    ],
+    "train_loss_after": 0.4906633070255533,
+    "validation_loss": 0.4906633070255533,
+    "test_record_ids": [
+      "r003",
+      "r006"
+    ],
+    "test_probabilities": [
+      0.5075203279027378,
+      0.7610741259387875
+    ],
+    "test_prediction_shape": [
+      2
+    ]
+  },
+  "actual": {
+    "model": "tiny logistic regression (16 -> 1), learned; not a CNN, not a constant/naive model",
+    "is_constant_model": false,
+    "seed": 0,
+    "learning_rate": 0.5,
+    "epochs": 1,
+    "steps": 2,
+    "train_order": [
+      "r001",
+      "r004"
+    ],
+    "step_losses": [
+      0.6931471805599453,
+      0.8213605345432711
+    ],
+    "train_loss_after": 0.4906633070255533,
+    "validation_loss": 0.4906633070255533,
+    "test_record_ids": [
+      "r003",
+      "r006"
+    ],
+    "test_probabilities": [
+      0.5075203279027378,
+      0.7610741259387875
+    ],
+    "test_prediction_shape": [
+      2
+    ]
+  },
+  "outcome": "PASS"
+}
