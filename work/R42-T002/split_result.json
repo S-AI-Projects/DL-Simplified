@@ -1,0 +1,63 @@
+{
+  "note": "Pipeline verification only. Synthetic 4\u00d74 fixture \u2014 NOT the NEU steel surface defects dataset.",
+  "expected": {
+    "groups": {
+      "test": [
+        "g3"
+      ],
+      "train": [
+        "g2"
+      ],
+      "validation": [
+        "g1"
+      ]
+    },
+    "seed": 42,
+    "splits": {
+      "test": [
+        "r003",
+        "r006"
+      ],
+      "train": [
+        "r002",
+        "r005"
+      ],
+      "validation": [
+        "r001",
+        "r004"
+      ]
+    },
+    "strategy": "seeded-group-shuffle"
+  },
+  "actual": {
+    "seed": 42,
+    "strategy": "seeded-group-shuffle",
+    "splits": {
+      "train": [
+        "r002",
+        "r005"
+      ],
+      "validation": [
+        "r001",
+        "r004"
+      ],
+      "test": [
+        "r003",
+        "r006"
+      ]
+    },
+    "groups": {
+      "train": [
+        "g2"
+      ],
+      "validation": [
+        "g1"
+      ],
+      "test": [
+        "g3"
+      ]
+    }
+  },
+  "repeated_run_identical": true,
+  "outcome": "PASS"
+}

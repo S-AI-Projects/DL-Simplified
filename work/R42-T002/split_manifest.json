@@ -1,0 +1,29 @@
+{
+  "groups": {
+    "test": [
+      "g3"
+    ],
+    "train": [
+      "g2"
+    ],
+    "validation": [
+      "g1"
+    ]
+  },
+  "seed": 42,
+  "splits": {
+    "test": [
+      "r003",
+      "r006"
+    ],
+    "train": [
+      "r002",
+      "r005"
+    ],
+    "validation": [
+      "r001",
+      "r004"
+    ]
+  },
+  "strategy": "seeded-group-shuffle"
+}
