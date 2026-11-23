@@ -1,0 +1,70 @@
+Deliberate mutation check: copy of course-labs/r42-t009 with one expected value changed in test_pipeline.py
+  before: EXPECTED = {"r002": 0, "r003": 0, "r005": 1, "r006": 1}
+  after : EXPECTED = {"r002": 0, "r003": 0, "r005": 1, "r006": 0}
+$ python3 -m unittest discover -s <copy>/r42-t009 -p "test_*.py"
+.F.FFF....
+======================================================================
+FAIL: test_documented_result (test_pipeline.TestRecordOrderProperty.test_documented_result)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<copy>/r42-t009/test_pipeline.py", line 46, in test_documented_result
+    self.assertEqual(predict_by_id(self.fixture, self.split), EXPECTED)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'r002': 0, 'r003': 0, 'r005': 1, 'r006': 1} != {'r002': 0, 'r003': 0, 'r005': 1, 'r006': 0}
+- {'r002': 0, 'r003': 0, 'r005': 1, 'r006': 1}
+?                                           ^
+
++ {'r002': 0, 'r003': 0, 'r005': 1, 'r006': 0}
+?                                           ^
+
+
+======================================================================
+FAIL: test_reversed_order_preserves_result (test_pipeline.TestRecordOrderProperty.test_reversed_order_preserves_result)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<copy>/r42-t009/test_pipeline.py", line 56, in test_reversed_order_preserves_result
+    self.assertEqual(predict_by_id(list(reversed(self.fixture)), self.split), EXPECTED)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'r006': 1, 'r005': 1, 'r003': 0, 'r002': 0} != {'r002': 0, 'r003': 0, 'r005': 1, 'r006': 0}
+- {'r002': 0, 'r003': 0, 'r005': 1, 'r006': 1}
+?                                           ^
+
++ {'r002': 0, 'r003': 0, 'r005': 1, 'r006': 0}
+?                                           ^
+
+
+======================================================================
+FAIL: test_saved_expected_result_matches (test_pipeline.TestRecordOrderProperty.test_saved_expected_result_matches)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<copy>/r42-t009/test_pipeline.py", line 66, in test_saved_expected_result_matches
+    self.assertEqual(saved["original_predictions"], EXPECTED)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'r002': 0, 'r003': 0, 'r005': 1, 'r006': 1} != {'r002': 0, 'r003': 0, 'r005': 1, 'r006': 0}
+- {'r002': 0, 'r003': 0, 'r005': 1, 'r006': 1}
+?                                           ^
+
++ {'r002': 0, 'r003': 0, 'r005': 1, 'r006': 0}
+?                                           ^
+
+
+======================================================================
+FAIL: test_seeded_shuffle_preserves_result_after_id_alignment (test_pipeline.TestRecordOrderProperty.test_seeded_shuffle_preserves_result_after_id_alignment)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<copy>/r42-t009/test_pipeline.py", line 53, in test_seeded_shuffle_preserves_result_after_id_alignment
+    self.assertEqual(result, EXPECTED)                     # ... but aligned by ID it is identical
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+AssertionError: {'r005': 1, 'r006': 1, 'r002': 0, 'r003': 0} != {'r002': 0, 'r003': 0, 'r005': 1, 'r006': 0}
+- {'r002': 0, 'r003': 0, 'r005': 1, 'r006': 1}
+?                                           ^
+
++ {'r002': 0, 'r003': 0, 'r005': 1, 'r006': 0}
+?                                           ^
+
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.004s
+
+FAILED (failures=4)
+exit_code=1

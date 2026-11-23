@@ -1,0 +1,17 @@
+$ python3 -m unittest discover -s course-labs/r42-t009 -p "test_*.py" -v
+test_fixture_matches_task_description (test_pipeline.TestFixture.test_fixture_matches_task_description) ... ok
+test_documented_result (test_pipeline.TestRecordOrderProperty.test_documented_result) ... ok
+test_ids_stay_attached_to_records (test_pipeline.TestRecordOrderProperty.test_ids_stay_attached_to_records) ... ok
+test_reversed_order_preserves_result (test_pipeline.TestRecordOrderProperty.test_reversed_order_preserves_result) ... ok
+test_saved_expected_result_matches (test_pipeline.TestRecordOrderProperty.test_saved_expected_result_matches) ... ok
+test_seeded_shuffle_preserves_result_after_id_alignment (test_pipeline.TestRecordOrderProperty.test_seeded_shuffle_preserves_result_after_id_alignment) ... ok
+test_fifteen_pixels_rejected (test_pipeline.TestUnsupportedInput.test_fifteen_pixels_rejected) ... ok
+test_missing_pixels_field_rejected (test_pipeline.TestUnsupportedInput.test_missing_pixels_field_rejected) ... ok
+test_nested_4x4_rejected (test_pipeline.TestUnsupportedInput.test_nested_4x4_rejected) ... ok
+test_valid_input_accepted (test_pipeline.TestUnsupportedInput.test_valid_input_accepted) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.002s
+
+OK
+exit_code=0

@@ -1,0 +1,32 @@
+{
+  "original_order": [
+    "r001",
+    "r002",
+    "r003",
+    "r004",
+    "r005",
+    "r006"
+  ],
+  "original_predictions": {
+    "r002": 0,
+    "r003": 0,
+    "r005": 1,
+    "r006": 1
+  },
+  "shuffled_order": [
+    "r005",
+    "r001",
+    "r006",
+    "r004",
+    "r002",
+    "r003"
+  ],
+  "shuffled_predictions_aligned": {
+    "r002": 0,
+    "r003": 0,
+    "r005": 1,
+    "r006": 1
+  },
+  "unsupported_input": "rejected: record 'r006': unsupported input, shape mismatch: expected flat list of 16 pixels, got 15",
+  "property_holds": true
+}
