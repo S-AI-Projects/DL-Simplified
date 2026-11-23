@@ -1,0 +1,21 @@
+$ python3 -m unittest discover -s course-labs/r42-t003 -p "test_*.py" -v
+test_fitted_on_training_records_only (test_pipeline.TestBaselineResult.test_fitted_on_training_records_only) ... ok
+test_held_out_labels_do_not_change_fitted_parameter (test_pipeline.TestBaselineResult.test_held_out_labels_do_not_change_fitted_parameter) ... ok
+test_saved_expected_result_matches (test_pipeline.TestBaselineResult.test_saved_expected_result_matches) ... ok
+test_test_predictions_and_accuracy (test_pipeline.TestBaselineResult.test_test_predictions_and_accuracy) ... ok
+test_validation_predictions_and_accuracy (test_pipeline.TestBaselineResult.test_validation_predictions_and_accuracy) ... ok
+test_accuracy_rejects_empty_and_mismatched (test_pipeline.TestFailureCases.test_accuracy_rejects_empty_and_mismatched) ... ok
+test_empty_training_split_rejected (test_pipeline.TestFailureCases.test_empty_training_split_rejected) ... ok
+test_invalid_training_label_rejected (test_pipeline.TestFailureCases.test_invalid_training_label_rejected) ... ok
+test_predict_before_fit_rejected (test_pipeline.TestFailureCases.test_predict_before_fit_rejected) ... ok
+test_tie_breaks_to_smallest_label (test_pipeline.TestFailureCases.test_tie_breaks_to_smallest_label) ... ok
+test_six_records_three_per_label_with_expected_pixels (test_pipeline.TestFixture.test_six_records_three_per_label_with_expected_pixels) ... ok
+test_duplicate_record_id_rejected (test_pipeline.TestSplit.test_duplicate_record_id_rejected) ... ok
+test_explicit_disjoint_split (test_pipeline.TestSplit.test_explicit_disjoint_split) ... ok
+test_group_in_two_splits_rejected (test_pipeline.TestSplit.test_group_in_two_splits_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+exit_code=0

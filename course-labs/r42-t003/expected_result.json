@@ -1,0 +1,41 @@
+{
+  "baseline": "majority-class",
+  "fitted_on": [
+    "r001",
+    "r002",
+    "r004"
+  ],
+  "train_label_counts": {
+    "0": 2,
+    "1": 1
+  },
+  "majority_label": 0,
+  "metric": "accuracy",
+  "validation": {
+    "record_ids": [
+      "r005"
+    ],
+    "truth": [
+      1
+    ],
+    "prediction": [
+      0
+    ],
+    "accuracy": 0.0
+  },
+  "test": {
+    "record_ids": [
+      "r003",
+      "r006"
+    ],
+    "truth": [
+      0,
+      1
+    ],
+    "prediction": [
+      0,
+      0
+    ],
+    "accuracy": 0.5
+  }
+}

@@ -1,0 +1,19 @@
+Deliberate mutation check: copy of course-labs/r42-t003 with one expected value changed in test_pipeline.py
+  before: self.assertEqual(self.result["test"]["accuracy"], 0.5)
+  after : self.assertEqual(self.result["test"]["accuracy"], 0.75)
+$ python3 -m unittest discover -s <copy>/r42-t003 -p "test_*.py"
+...F..........
+======================================================================
+FAIL: test_test_predictions_and_accuracy (test_pipeline.TestBaselineResult.test_test_predictions_and_accuracy)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<copy>/r42-t003/test_pipeline.py", line 80, in test_test_predictions_and_accuracy
+    self.assertEqual(self.result["test"]["accuracy"], 0.75)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0.5 != 0.75
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+FAILED (failures=1)
+exit_code=1
