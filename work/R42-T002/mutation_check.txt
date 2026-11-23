@@ -1,0 +1,27 @@
+Deliberate mutation check: copy of course-labs/r42-t002 with one expected value changed in test_pipeline.py
+  before:     "test": ["r003", "r006"],
+  after :     "test": ["r003", "r005"],
+$ python3 -m unittest discover -s <copy>/r42-t002 -p "test_*.py"
+.............F.....
+======================================================================
+FAIL: test_exact_record_ids_per_split (test_pipeline.TestSplitManifest.test_exact_record_ids_per_split)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<copy>/r42-t002/test_pipeline.py", line 69, in test_exact_record_ids_per_split
+    self.assertEqual(self.manifest["splits"], EXPECTED_SPLITS)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'tra[17 chars]05'], 'validation': ['r001', 'r004'], 'test': ['r003', 'r006']} != {'tra[17 chars]05'], 'validation': ['r001', 'r004'], 'test': ['r003', 'r005']}
+- {'test': ['r003', 'r006'],
+?                       ^
+
++ {'test': ['r003', 'r005'],
+?                       ^
+
+   'train': ['r002', 'r005'],
+   'validation': ['r001', 'r004']}
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.005s
+
+FAILED (failures=1)
+exit_code=1

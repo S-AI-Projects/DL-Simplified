@@ -1,0 +1,26 @@
+$ python3 -m unittest discover -s course-labs/r42-t002 -p "test_*.py" -v
+test_oldest_group_train_newest_group_test (test_pipeline.TestChronologicalSplit.test_oldest_group_train_newest_group_test) ... ok
+test_overlapping_time_ranges_rejected (test_pipeline.TestChronologicalSplit.test_overlapping_time_ranges_rejected) ... ok
+test_six_records_with_schema_fields (test_pipeline.TestFixture.test_six_records_with_schema_fields) ... ok
+test_three_all_zero_label0_and_three_diagonal_label1 (test_pipeline.TestFixture.test_three_all_zero_label0_and_three_diagonal_label1) ... ok
+test_unique_record_ids_and_declared_groups (test_pipeline.TestFixture.test_unique_record_ids_and_declared_groups) ... ok
+test_duplicate_record_id_in_input_rejected (test_pipeline.TestLeakageRejected.test_duplicate_record_id_in_input_rejected) ... ok
+test_group_split_across_two_splits_rejected (test_pipeline.TestLeakageRejected.test_group_split_across_two_splits_rejected) ... ok
+test_missing_group_id_rejected (test_pipeline.TestLeakageRejected.test_missing_group_id_rejected) ... ok
+test_overlapping_record_id_between_splits_rejected (test_pipeline.TestLeakageRejected.test_overlapping_record_id_between_splits_rejected) ... ok
+test_too_few_groups_rejected (test_pipeline.TestLeakageRejected.test_too_few_groups_rejected) ... ok
+test_unassigned_record_rejected (test_pipeline.TestLeakageRejected.test_unassigned_record_rejected) ... ok
+test_every_record_assigned_exactly_once (test_pipeline.TestSplitManifest.test_every_record_assigned_exactly_once) ... ok
+test_exact_groups_per_split (test_pipeline.TestSplitManifest.test_exact_groups_per_split) ... ok
+test_exact_record_ids_per_split (test_pipeline.TestSplitManifest.test_exact_record_ids_per_split) ... ok
+test_no_group_in_more_than_one_split (test_pipeline.TestSplitManifest.test_no_group_in_more_than_one_split) ... ok
+test_record_order_does_not_change_manifest (test_pipeline.TestSplitManifest.test_record_order_does_not_change_manifest) ... ok
+test_repeated_runs_give_identical_manifest (test_pipeline.TestSplitManifest.test_repeated_runs_give_identical_manifest) ... ok
+test_saved_expected_manifest_matches (test_pipeline.TestSplitManifest.test_saved_expected_manifest_matches) ... ok
+test_train_validation_test_are_disjoint (test_pipeline.TestSplitManifest.test_train_validation_test_are_disjoint) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.003s
+
+OK
+exit_code=0
