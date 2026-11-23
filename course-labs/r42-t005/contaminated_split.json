@@ -1,0 +1,6 @@
+{
+  "note": "Deliberate contamination fixture: group g2 is in both train and validation. Must be rejected.",
+  "train": ["g1", "g2"],
+  "validation": ["g2"],
+  "test": ["g3"]
+}

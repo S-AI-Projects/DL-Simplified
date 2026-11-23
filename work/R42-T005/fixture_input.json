@@ -1,0 +1,124 @@
+{
+  "records": [
+    {
+      "record_id": "a001",
+      "group_id": "g1",
+      "sample_rate": 8000,
+      "samples": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "label": 0
+    },
+    {
+      "record_id": "a002",
+      "group_id": "g2",
+      "sample_rate": 8000,
+      "samples": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "label": 0
+    },
+    {
+      "record_id": "a003",
+      "group_id": "g3",
+      "sample_rate": 8000,
+      "samples": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "label": 0
+    },
+    {
+      "record_id": "a004",
+      "group_id": "g1",
+      "sample_rate": 8000,
+      "samples": [
+        -1,
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "label": 1
+    },
+    {
+      "record_id": "a005",
+      "group_id": "g2",
+      "sample_rate": 8000,
+      "samples": [
+        -1,
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "label": 1
+    },
+    {
+      "record_id": "a006",
+      "group_id": "g3",
+      "sample_rate": 8000,
+      "samples": [
+        -1,
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "label": 1
+    }
+  ],
+  "split": {
+    "train": [
+      "g1"
+    ],
+    "validation": [
+      "g2"
+    ],
+    "test": [
+      "g3"
+    ]
+  },
+  "contaminated_split": {
+    "note": "Deliberate contamination fixture: group g2 is in both train and validation. Must be rejected.",
+    "train": [
+      "g1",
+      "g2"
+    ],
+    "validation": [
+      "g2"
+    ],
+    "test": [
+      "g3"
+    ]
+  }
+}

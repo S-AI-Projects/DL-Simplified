@@ -1,0 +1,30 @@
+Deliberate mutation check: copy of course-labs/r42-t005 with one expected value changed in test_pipeline.py
+  before: self.assertEqual(self.result["fitted_on"], ["a001", "a004"])
+  after : self.assertEqual(self.result["fitted_on"], ["a001", "a002"])
+$ python3 -m unittest discover -s <copy>/r42-t005 -p "test_*.py"
+.............F...
+======================================================================
+FAIL: test_fitted_on_train_only (test_pipeline.TestOutputs.test_fitted_on_train_only)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<copy>/r42-t005/test_pipeline.py", line 48, in test_fitted_on_train_only
+    self.assertEqual(self.result["fitted_on"], ["a001", "a002"])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Lists differ: ['a001', 'a004'] != ['a001', 'a002']
+
+First differing element 1:
+'a004'
+'a002'
+
+- ['a001', 'a004']
+?              ^
+
++ ['a001', 'a002']
+?              ^
+
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.004s
+
+FAILED (failures=1)
+exit_code=1

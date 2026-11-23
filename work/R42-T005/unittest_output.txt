@@ -1,0 +1,24 @@
+$ python3 -m unittest discover -s course-labs/r42-t005 -p "test_*.py" -v
+test_fixture_matches_task_description (test_pipeline.TestFixture.test_fixture_matches_task_description) ... ok
+test_mismatched_sample_rate_rejected (test_pipeline.TestInputContract.test_mismatched_sample_rate_rejected) ... ok
+test_multichannel_input_rejected (test_pipeline.TestInputContract.test_multichannel_input_rejected) ... ok
+test_non_numeric_sample_rejected (test_pipeline.TestInputContract.test_non_numeric_sample_rejected) ... ok
+test_transform_before_fit_rejected (test_pipeline.TestInputContract.test_transform_before_fit_rejected) ... ok
+test_wrong_length_rejected_not_padded (test_pipeline.TestInputContract.test_wrong_length_rejected_not_padded) ... ok
+test_zero_variance_training_rejected (test_pipeline.TestInputContract.test_zero_variance_training_rejected) ... ok
+test_contamination_fixture_rejected (test_pipeline.TestNoHeldOutFitting.test_contamination_fixture_rejected) ... ok
+test_duplicate_record_id_rejected (test_pipeline.TestNoHeldOutFitting.test_duplicate_record_id_rejected) ... ok
+test_fit_rejects_raw_record_lists (test_pipeline.TestNoHeldOutFitting.test_fit_rejects_raw_record_lists) ... ok
+test_held_out_values_do_not_change_fit (test_pipeline.TestNoHeldOutFitting.test_held_out_values_do_not_change_fit) ... ok
+test_dtype_is_float (test_pipeline.TestOutputs.test_dtype_is_float) ... ok
+test_exact_values_and_time_order (test_pipeline.TestOutputs.test_exact_values_and_time_order) ... ok
+test_fitted_on_train_only (test_pipeline.TestOutputs.test_fitted_on_train_only) ... ok
+test_saved_expected_result_matches (test_pipeline.TestOutputs.test_saved_expected_result_matches) ... ok
+test_shape_is_channels_by_time (test_pipeline.TestOutputs.test_shape_is_channels_by_time) ... ok
+test_split_record_ids (test_pipeline.TestOutputs.test_split_record_ids) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.003s
+
+OK
+exit_code=0
