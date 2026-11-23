@@ -1,0 +1,25 @@
+Deliberate mutation check: copy of course-labs/r42-t007 with one expected value changed in test_pipeline.py
+  before: EXPECTED_PREDICTIONS = {"r001": 0, "r004": 1, "r003": 0, "r006": 1}
+  after : EXPECTED_PREDICTIONS = {"r001": 0, "r004": 1, "r003": 0, "r006": 0}
+$ python3 -m unittest discover -s <copy>/r42-t007 -p "test_*.py"
+...............F.
+======================================================================
+FAIL: test_saved_config_reconstructs_split_and_predictions (test_pipeline.TestReproducibility.test_saved_config_reconstructs_split_and_predictions)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<copy>/r42-t007/test_pipeline.py", line 67, in test_saved_config_reconstructs_split_and_predictions
+    self.assertEqual(result["predictions"], EXPECTED_PREDICTIONS)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'r001': 0, 'r004': 1, 'r003': 0, 'r006': 1} != {'r001': 0, 'r004': 1, 'r003': 0, 'r006': 0}
+- {'r001': 0, 'r003': 0, 'r004': 1, 'r006': 1}
+?                                           ^
+
++ {'r001': 0, 'r003': 0, 'r004': 1, 'r006': 0}
+?                                           ^
+
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.010s
+
+FAILED (failures=1)
+exit_code=1

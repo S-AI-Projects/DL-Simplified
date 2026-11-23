@@ -1,0 +1,50 @@
+{
+  "algorithm": {
+    "distance": "squared_euclidean",
+    "name": "nearest_centroid",
+    "pixel_scale": 255,
+    "tie_break": "smallest_label"
+  },
+  "environment": {
+    "platform": "Linux-6.18.44-fc-v726-x86_64-with-glibc2.39",
+    "python": "3.13.18"
+  },
+  "feature_order": [
+    "p00",
+    "p01",
+    "p02",
+    "p03",
+    "p10",
+    "p11",
+    "p12",
+    "p13",
+    "p20",
+    "p21",
+    "p22",
+    "p23",
+    "p30",
+    "p31",
+    "p32",
+    "p33"
+  ],
+  "input_shape": [
+    4,
+    4
+  ],
+  "schema_version": "1.0",
+  "seed": 42,
+  "split": {
+    "test": [
+      "r003",
+      "r006"
+    ],
+    "train": [
+      "r002",
+      "r005"
+    ],
+    "validation": [
+      "r001",
+      "r004"
+    ]
+  }
+}

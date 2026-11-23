@@ -1,0 +1,96 @@
+{
+  "note": "Pipeline verification only. Synthetic 4\u00d74 fixture \u2014 NOT a lung CT dataset.",
+  "expected": {
+    "original": {
+      "split": {
+        "train": [
+          "r002",
+          "r005"
+        ],
+        "validation": [
+          "r001",
+          "r004"
+        ],
+        "test": [
+          "r003",
+          "r006"
+        ]
+      },
+      "predictions": {
+        "r001": 0,
+        "r004": 1,
+        "r003": 0,
+        "r006": 1
+      }
+    },
+    "reloaded": {
+      "split": {
+        "train": [
+          "r002",
+          "r005"
+        ],
+        "validation": [
+          "r001",
+          "r004"
+        ],
+        "test": [
+          "r003",
+          "r006"
+        ]
+      },
+      "predictions": {
+        "r001": 0,
+        "r004": 1,
+        "r003": 0,
+        "r006": 1
+      }
+    }
+  },
+  "actual": {
+    "original": {
+      "split": {
+        "train": [
+          "r002",
+          "r005"
+        ],
+        "validation": [
+          "r001",
+          "r004"
+        ],
+        "test": [
+          "r003",
+          "r006"
+        ]
+      },
+      "predictions": {
+        "r001": 0,
+        "r004": 1,
+        "r003": 0,
+        "r006": 1
+      }
+    },
+    "reloaded": {
+      "split": {
+        "train": [
+          "r002",
+          "r005"
+        ],
+        "validation": [
+          "r001",
+          "r004"
+        ],
+        "test": [
+          "r003",
+          "r006"
+        ]
+      },
+      "predictions": {
+        "r001": 0,
+        "r004": 1,
+        "r003": 0,
+        "r006": 1
+      }
+    }
+  },
+  "outcome": "PASS"
+}
