@@ -1,0 +1,58 @@
+{
+  "note": "Pipeline verification only. Synthetic 4\u00d74 fixture \u2014 NOT EuroSAT.",
+  "expected": {
+    "rows": [
+      {
+        "record_id": "r006",
+        "split": "test",
+        "expected": 1,
+        "predicted": 0,
+        "error_type": "false_negative",
+        "reason_category": "injected_for_testing"
+      }
+    ],
+    "aggregate": {
+      "evaluated": 4,
+      "correct": 3,
+      "errors": 1,
+      "by_split": {
+        "validation": 0,
+        "test": 1
+      },
+      "by_error_type": {
+        "false_negative": 1
+      },
+      "by_reason_category": {
+        "injected_for_testing": 1
+      }
+    }
+  },
+  "actual": {
+    "rows": [
+      {
+        "record_id": "r006",
+        "split": "test",
+        "expected": 1,
+        "predicted": 0,
+        "error_type": "false_negative",
+        "reason_category": "injected_for_testing"
+      }
+    ],
+    "aggregate": {
+      "evaluated": 4,
+      "correct": 3,
+      "errors": 1,
+      "by_split": {
+        "validation": 0,
+        "test": 1
+      },
+      "by_error_type": {
+        "false_negative": 1
+      },
+      "by_reason_category": {
+        "injected_for_testing": 1
+      }
+    }
+  },
+  "outcome": "PASS"
+}

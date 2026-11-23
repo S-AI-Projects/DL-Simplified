@@ -1,0 +1,20 @@
+$ python3 -m unittest discover -s course-labs/r42-t008 -p "test_*.py" -v
+test_inject_training_record_rejected (test_pipeline.TestFailureCases.test_inject_training_record_rejected) ... ok
+test_inject_twice_rejected (test_pipeline.TestFailureCases.test_inject_twice_rejected) ... ok
+test_inject_unknown_record_rejected (test_pipeline.TestFailureCases.test_inject_unknown_record_rejected) ... ok
+test_tampered_aggregate_detected (test_pipeline.TestFailureCases.test_tampered_aggregate_detected) ... ok
+test_explicit_disjoint_split (test_pipeline.TestFixture.test_explicit_disjoint_split) ... ok
+test_fixture_matches_task_description (test_pipeline.TestFixture.test_fixture_matches_task_description) ... ok
+test_aggregate_counts_match_rows (test_pipeline.TestReport.test_aggregate_counts_match_rows) ... ok
+test_correct_predictions_do_not_appear (test_pipeline.TestReport.test_correct_predictions_do_not_appear) ... ok
+test_injected_wrong_prediction_appears_with_correct_record_id (test_pipeline.TestReport.test_injected_wrong_prediction_appears_with_correct_record_id) ... ok
+test_injecting_a_label0_record_gives_false_positive (test_pipeline.TestReport.test_injecting_a_label0_record_gives_false_positive) ... ok
+test_model_alone_is_correct_on_held_out (test_pipeline.TestReport.test_model_alone_is_correct_on_held_out) ... ok
+test_saved_expected_report_matches (test_pipeline.TestReport.test_saved_expected_report_matches) ... ok
+test_training_records_are_not_evaluated (test_pipeline.TestReport.test_training_records_are_not_evaluated) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.002s
+
+OK
+exit_code=0

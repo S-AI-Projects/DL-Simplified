@@ -1,0 +1,19 @@
+Deliberate mutation check: copy of course-labs/r42-t008 with one expected value changed in test_pipeline.py
+  before: self.assertEqual(agg["correct"], 3)
+  after : self.assertEqual(agg["correct"], 4)
+$ python3 -m unittest discover -s <copy>/r42-t008 -p "test_*.py"
+......F......
+======================================================================
+FAIL: test_aggregate_counts_match_rows (test_pipeline.TestReport.test_aggregate_counts_match_rows)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<copy>/r42-t008/test_pipeline.py", line 74, in test_aggregate_counts_match_rows
+    self.assertEqual(agg["correct"], 4)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+AssertionError: 3 != 4
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.003s
+
+FAILED (failures=1)
+exit_code=1
